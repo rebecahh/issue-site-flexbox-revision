@@ -1,0 +1,71 @@
+css
+
+a {
+  color: black;
+}
+a:hover{
+  background-color: yellow;
+}
+
+.topnav{
+  display: flex;
+  /* flex-direction: row; */
+
+  /* overflow: hidden; */
+  background-color: #232B70;
+  font-size: 30%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  margin: 20px 20px 20px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #232B70;
+  background: #c7cbf0;
+  background-attachment: fixed;
+  background-repeat:repeat-x;
+
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  background-color: white;
+  color: black;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+}
+.content h2{
+  display: flex;
+  justify-content: center;
+
+  color: #232B70;
+}
+.content h3{
+  display: flex;
+  justify-content: center;
+
+  color: #232B70;
+}
